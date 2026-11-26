@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  color: #19322b;
+  background: #f5f8f6;
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
+}
+
+main {
+  box-sizing: border-box;
+  display: grid;
+  min-height: 100vh;
+  align-content: center;
+  gap: 0.75rem;
+  padding: 2rem;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(2.5rem, 8vw, 4.5rem);
+  line-height: 1.1;
+}
+
+p {
+  margin: 0;
+}

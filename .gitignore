@@ -1,0 +1,17 @@
+# 프런트엔드 의존성과 빌드 결과
+node_modules/
+frontend/dist/
+
+# 파이썬 가상환경과 캐시
+.venv/
+__pycache__/
+*.py[cod]
+
+# 로컬 환경 변수와 자격 증명
+.env
+.env.*
+!.env.example
+service-account*.json
+*-firebase-adminsdk-*.json
+*.pem
+*.key
